@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    color: black;
+}
+.parent{
+    width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+}
+.child::after{
+    content: "";
+    clear: left;
+    display: block;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+.child::before{
+    content: "child";
+}
+.child::after{
+    content: "";
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
