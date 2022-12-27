@@ -11,6 +11,10 @@ body{
     margin: 0 auto;
     background-color: blue;
 }
+.grandma{
+    width: 400px;
+    background-color: coral;   
+}
 .child::after{
     content: "";
     clear: left;
@@ -31,6 +35,7 @@ body{
 }
 .red{
     background-color: red;
+    position: absolute;
 }
 .yellow{
     background-color: yellow;
